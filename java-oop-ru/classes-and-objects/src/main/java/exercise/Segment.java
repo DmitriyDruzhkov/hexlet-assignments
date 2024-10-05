@@ -1,6 +1,6 @@
-package hexlet.code;
+package main.java.excercise.*;
 
-import hexlet.code.Point;
+import main.java.excercise.*;
 
 public class Segment {
     Point beginPoint;
@@ -27,5 +27,6 @@ public class Segment {
         Point point2 = new Point(6, 1);
         Segment segment = new Segment(point1, point2);
         Point midPoint = segment.getMidPoint(point1, point2);
+        System.out.println(midPoint.getX());
     }
 }

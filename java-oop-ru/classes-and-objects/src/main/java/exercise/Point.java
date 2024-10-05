@@ -1,3 +1,6 @@
+package main.java.excercise.*;
+
+import main.java.excercise.*;
 public class Point {
     private int x;
     private int y;
