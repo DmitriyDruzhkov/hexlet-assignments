@@ -1,6 +1,4 @@
-package main.java.excercise.*;
-
-import main.java.excercise.*;
+package exercise;
 
 public class Segment {
     Point beginPoint;
@@ -22,11 +20,4 @@ public class Segment {
         return new Point(x1, y1);
     }
 
-    public static void main(String[] args) {
-        Point point1 = new Point(4, 3);
-        Point point2 = new Point(6, 1);
-        Segment segment = new Segment(point1, point2);
-        Point midPoint = segment.getMidPoint(point1, point2);
-        System.out.println(midPoint.getX());
     }
-}
